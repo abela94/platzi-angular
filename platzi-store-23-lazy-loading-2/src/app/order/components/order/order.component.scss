@@ -1,0 +1,36 @@
+.crop-image {
+    display: block;
+    height: 75%;
+    width: 75%;
+    img {
+      object-fit: contain;
+      height: 100%;
+      width: 100%;
+      object-position: center;
+    }
+  }
+
+.box {
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 2.5%;
+}
+
+.order-button {
+    border-radius: 50%;
+    min-width: 0;
+    padding: 2px;
+}
+
+.flow-button {
+    margin: 2px;
+}
+
+::ng-deep .mat-horizontal-stepper-header{
+    pointer-events: none !important;
+  }
